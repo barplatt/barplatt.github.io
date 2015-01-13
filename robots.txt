@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: 
+Disallow: /images
+Disallow: /javascripts
+Disallow: /stylesheets
+Sitemap: http://www.bennyschalin.com
