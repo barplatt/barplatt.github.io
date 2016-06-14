@@ -1,0 +1,274 @@
+@charset "UTF-8";
+// ======================
+//  FONTS
+// =======================
+
+$bodytext: 'Pontano Sans', sans-serif; // Pontano Sans 400
+$heading: 'Montserrat', sans-serif; // Montserrat 400 and 700
+$normal: 400;
+$bold: 700;
+$h1: 1.602rem;
+$h2: 1.424rem;
+$h3: 1.266rem;
+$h4: 1.125rem;
+$small: 0.889rem;
+
+
+// ======================
+//   COLORS
+// =======================
+
+$gray: #f2f2f2;
+
+// =======================
+//  BREAKPOINTS MIXINS
+// =======================
+
+@mixin breakpoint($point) {
+   @if $point == desktop {
+     @media (min-width: 70em) { @content ; }
+  }
+   @else if $point == laptop {
+     @media (min-width: 64em) { @content ; }
+  }
+    @else if $point == tablet {
+     @media (min-width: 50em) { @content ; }
+  }
+   @else if $point == phablet {
+     @media (min-width: 37.5em)  { @content ; }
+  }
+  @else if $point == mobileonly {
+     @media (max-width: 37.5em)  { @content ; }
+  }
+  @else if $point == special {
+     @media (max-width: 767px)  { @content ; }
+  }
+}
+
+
+
+/* ===========================
+   TYPOGRAPHY
+   =========================== */
+
+html {font-size: 80%;}
+// Mobile first approach. Font sizes increase with the viewport size.
+
+html {
+  @include breakpoint(phablet) {
+      font-size: 85%;
+  }
+}
+html {
+  @include breakpoint(tablet) {
+      font-size: 90%;
+  }
+}
+html {
+  @include breakpoint(laptop) {
+      font-size: 95%;
+  }
+}
+html {
+  @include breakpoint(desktop) {
+      font-size: 100%;        
+  }
+}
+
+body {
+  background-color: #FFFFFF;
+  font-family: $bodytext;
+  font-weight: $normal;
+  line-height: 1.45;
+  color: #30383a;
+}
+
+p {margin-bottom: 1.3rem;}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4{
+  font-family: $heading;  
+  margin: 1.414em 0 0.5rem;
+  font-weight: inherit;
+  line-height: 1.2;
+}
+
+h1, .h1 {
+  margin-top: 0;
+  font-size: 1.602rem;
+}
+
+h2, .h2, {font-size: 1.424rem;}
+
+h3, .h3 {font-size: 1.266rem;}
+
+h4, .h4 {font-size: 1.125rem;}
+
+small, .small {font-size: 0.889rem;}
+
+// ======================
+//  LINK COLORS 
+// =======================
+// Mixin for link styling that differs from the default, applied as a class. 
+
+@mixin links ($link, $visit, $hover, $active) {
+  a {
+    color: $link;
+    &:visited {
+      color: $visit;
+    }
+    &:hover {
+      color: $hover;  
+    }
+    &:active {
+      color: $active;
+    }
+    &.active {
+      color: $active;
+      cursor: default;
+    }
+  }
+}
+
+.main-nav-links {
+  @include links(#00546b, #00546b, #FFFFFF, #FFFFFF);
+}
+
+// Mixin for  global link styles on the a tag. 
+
+@mixin links ($link, $visit, $hover, $active) {
+    color: $link;
+    &:visited {
+      color: $visit;
+    }
+    &:hover {
+      color: $hover;  
+    }
+    &:active {
+      color: $active;
+    }
+    &.active {
+      color: $active;
+      cursor: default;
+    }
+}
+
+a {
+  @include links(#30383a, #30383a, darken($gray, 25%), darken($gray, 25%)); font-family: $heading;
+}
+
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+/* ===========================
+   ICON FONTS
+   =========================== */
+
+@font-face {
+    font-family: 'icomoon';
+    src:    url('../fonts/icomoon.eot?oy6ief');
+    src:    url('../fonts/icomoon.eot?oy6ief#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?oy6ief') format('truetype'),
+        url('../fonts/icomoon.woff?oy6ief') format('woff'),
+        url('../fonts/icomoon.svg?oy6ief#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-navigate-before:before {
+    content: "\e408";
+}
+.icon-navigate-next:before {
+    content: "\e409";
+}
+.icon-google-plus:before {
+    content: "\e900";
+}
+.icon-facebook:before {
+    content: "\e901";
+}
+.icon-instagram:before {
+    content: "\e909";
+}
+.icon-twitter:before {
+    content: "\e902";
+}
+.icon-flickr:before {
+    content: "\e903";
+}
+.icon-500px:before {
+    content: "\e904";
+}
+.icon-github:before {
+    content: "\e905";
+}
+.icon-tumblr:before {
+    content: "\e906";
+}
+.icon-linkedin:before {
+    content: "\e907";
+}
+.icon-pinterest:before {
+    content: "\e908";
+}
+
+.bg-primary {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00aacc+0,0089af +100 */
+  background: #00aacc; /* Old browsers */
+  background: -moz-linear-gradient(top,  #00aacc 0%, #0089af  100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #00aacc 0%,#0089af  100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #00aacc 0%,#0089af  100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00aacc', endColorstr='#0089af ',GradientType=0 ); /* IE6-9 */
+}
+
+.bg-feature {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f1f1f1+0,e0e0e0+100 */
+  background: #f1f1f1; /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  #f1f1f1 0%, #e0e0e0 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg,  #f1f1f1 0%,#e0e0e0 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg,  #f1f1f1 0%,#e0e0e0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1f1f1', endColorstr='#e0e0e0',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  color: #8c8c8c;
+  padding-top: 2.4rem;
+  padding-bottom: 2rem;
+}
+.bg-main {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f1f1f1+100 */
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  #ffffff 0%, #f1f1f1 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg,  #ffffff 0%,#f1f1f1 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg,  #ffffff 0%,#f1f1f1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f1f1f1',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  padding-bottom: 3rem;
+  padding-top: 1rem;
+}
+
+.bg-dark {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#565959+0,494c49+100 */
+  background: #565959; /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  #565959 0%, #494c49 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg,  #565959 0%,#494c49 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg,  #565959 0%,#494c49 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#565959', endColorstr='#494c49',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  color: #babfb7;
+  padding-bottom: 3rem;
+  padding-top: 1rem;
+}

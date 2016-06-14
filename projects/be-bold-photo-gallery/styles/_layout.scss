@@ -1,0 +1,184 @@
+/* ===========================
+   LAYOUT
+   =========================== */
+// Note: margin and padding that affect the major layout blocks are included here. 
+
+.l-container {
+  @include j-center(77em, 2em);
+}
+
+.l-container-narrow {
+  @include j-center(45em, 2em);
+}
+
+.group {
+  @include j-cf();
+}
+
+.l-social {
+  text-align: right;
+}
+
+
+/* ===========================
+   Main Header
+   =========================== */
+.l-main-header {
+  @include j-stack();
+  text-align: center;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  @include breakpoint(phablet) {
+    @include j-column(1/3); 
+    text-align: left;   
+    padding-top: 2rem;
+    padding-bottom: 2rem; 
+  }
+}
+
+.l-main-nav {
+  @include j-stack();
+  text-align: center;
+  padding-bottom: 1rem; 
+  @include breakpoint(phablet) {
+    @include j-column(2/3);
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    text-align: right;
+  }   
+}
+
+
+
+/* ===========================
+   Post Article
+   =========================== */
+
+.l-caption-on-image {
+  position: absolute;
+  top: 200px;   
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  color: white;
+  @include breakpoint(mobileonly) {
+    top: 0;
+    position: relative;
+  }
+}
+
+.l-half {
+  margin-bottom: 2%;
+  @include breakpoint(phablet) {
+    @include j-column(1/2);
+  }
+}
+
+.l-split-half img{
+  @include j-column(1/2, $cycle: 2);
+  margin-bottom: 3%;
+}
+
+.l-third img {
+  margin-bottom: 3%;
+  @include breakpoint(phablet) {
+    @include j-column(1/3, $cycle: 3);
+  }
+}
+
+
+/* ===========================
+   Post Navigation Buttons
+   =========================== */
+
+.l-article-nav {
+  @include j-cf();
+  margin-top: 1rem;
+}   
+.previous {
+  @include j-column(1/3);
+}
+.next {
+   @include j-column(1/3, $offset: 1/3);
+}
+.readmore {
+  @include breakpoint(phablet) {
+    @include j-column(1/4, $offset: 3/4);
+  }
+}
+
+.l-demo {
+  @include breakpoint(phablet) {
+    @include j-column(2/3);
+  }  
+}
+.aside  {
+  @include breakpoint(phablet) {
+    @include j-column(1/3);
+  }  
+}
+
+/* ===========================
+   Footer
+   =========================== */
+footer {
+  @include j-cf();
+  padding-top: 2rem;
+  padding-bottom: 2rem; 
+ } 
+
+.l-footercolumn { 
+  text-align: center;
+  @include breakpoint(phablet) {
+    @include j-column(1/3); 
+    text-align: left;
+  }
+  @include breakpoint(mobileonly) {
+    li:first-child {
+      padding-top: 1rem;
+    }
+  }  
+}
+
+
+
+
+
+
+
+
+
+
+// Example Building blocks
+
+// section {
+//   @include j-cf();
+// }
+
+// aside { 
+//   @include j-stack();
+//   @include breakpoint(phablet) {
+//   @include j-column(1/3);
+//   }
+// }
+
+// article {
+//   @include j-stack(); 
+//   @include breakpoint(phablet) {
+//   @include j-column(2/3);
+//   }
+// }
+
+// .gallery {
+//   @include j-cf();
+//     figure {
+//       @include breakpoint(phablet) {
+//         @include j-column(1/3, $cycle: 3);  
+//       }
+//     }
+//     figure {
+//       @include breakpoint(mobileonly) {
+//         @include j-column(1/2, $cycle: 2);
+//       }
+//     } 
+// }

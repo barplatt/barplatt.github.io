@@ -1,0 +1,94 @@
+/* ===========================
+   LAYOUT
+   =========================== */
+// Note: margin and padding that affect the major layout blocks are included here.
+
+@mixin bb-center($max-width, $pad: 0) {
+  width: auto;
+  max-width: $max-width;
+  float: none;
+  display: block;
+
+  margin: {
+    right: auto;
+    left: auto;
+  };
+
+  padding: {
+    left: $pad;
+    right: $pad;
+  };
+}
+
+.l-container {
+  @include bb-center(65em, 2em);
+}
+
+.l-spacer {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+
+/*---------- CARDS COMPONENT ----------*/
+// Couldn't figure out how to do this with the flexbox grid system.
+
+$card-background:     #FFFFFF;
+$card-border-width:   1px;
+$card-border-color:   #DEDEDE;
+$card-radius:         0;
+
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards_item {
+  display: flex;
+  margin-top: 1rem;
+    @include breakpoint(phablet) {
+      width: 50%;
+      padding-left: 1rem;
+    }  
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: $card-background;
+  border: $card-border-width solid $card-border-color;
+  border-radius: $card-radius;
+}
+
+.card_image {
+  img {
+    width: 100%;
+    border-bottom: 1px solid $card-border-color;
+    // border-top-left-radius: ( $card-radius - $card-border-width );
+    // border-top-right-radius: ( $card-radius - $card-border-width );
+  }
+}
+
+.card_content {
+  display: flex;
+  flex: 1 0 auto;
+  flex-direction: column;
+  margin-top: 0;
+  padding: 0 1.5rem 1.5rem;
+  
+  p {
+    flex: 1 0 auto;
+  }
+  h2 {
+    margin-top: 0.5rem;
+  }
+}
+
+.cards-caption {
+  text-align: right;
+  padding-right: 1.5rem;
+}

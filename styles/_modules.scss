@@ -1,0 +1,123 @@
+/* ===========================
+   MODULES
+   =========================== */
+
+.main-nav {
+  text-align: right;
+    li {
+    font-family: $heading; 
+    font-size: $small;
+    font-weight: $bold;
+    text-transform: uppercase;
+    display: inline-block;
+    a {
+      padding: 15%;
+    }
+  }
+  @include breakpoint(special) {
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
+/* ===========================
+   Logo
+   =========================== */
+
+.header-logo {
+  max-width: 80px;
+  padding-bottom: 1rem;
+}
+
+
+/* ===========================
+   Theme button
+   =========================== */
+
+.bb-button {
+  background-color: transparent;
+  border: 1px solid darken($gray, 25%);  
+  border-radius: 5px;
+  padding: 1em .5em;
+  color: darken($gray, 40%);  
+  text-align: center;
+  letter-spacing: 0.2em;
+  font-size: (0.7rem);
+  text-transform: uppercase;
+    &:visited {
+      color: #8c8c8c;
+    }
+    &:hover {
+      cursor: pointer;
+      color: white;
+      background-color: black;
+      border-color: black;
+    }
+    &:disabled, &.disabled {
+      background-color: transparent;
+      color: darken($gray, 10%);
+      border-color: darken($gray, 10%);
+      cursor: default;
+    }
+  @include breakpoint(phablet) {
+    font-size: $small;
+  }  
+}
+
+
+.small-bb-button { padding: .5em .5em; }  
+
+// Browser UI
+
+.fake-browser-ui .frame {
+  display: block;
+  height: 15px;
+  background: #d3d3d3;
+}
+
+.fake-browser-ui span {
+  height: 0.5rem;
+  width: .5rem;
+  border-radius: .5rem;
+  background-color: #eee;
+  /* border: 1px solid #dadada; */
+  float: left;
+  margin: 4px 0 0 4px;
+}
+
+.img-circle {
+    border-radius: 50%;
+    max-width: 200px;
+}
+.text-left {
+  text-align: left;
+}
+.heart {
+  max-width: 2rem;
+}
+
+.fashion-img {
+  padding-top: 0.7rem;
+}
+.on-set-img {
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+}
+
+// ======================
+//  Utility Classes 
+// =======================
+
+
+
+// .screenreader {
+//     position: absolute;
+//     width: 1px;
+//     height: 1px;
+//     padding: 0;
+//     margin: -1px;
+//     overflow: hidden;
+//     clip: rect(0,0,0,0);
+//     border: 0;
+// }
