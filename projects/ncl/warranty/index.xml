@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Warranties on New Castle Living</title>
-    <link>/warranty/</link>
+    <link>http://bsch.io/projects/ncl/warranty/</link>
     <description>Recent content in Warranties on New Castle Living</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2016 New Castle Living. All Rights Reserved.</copyright>
-    <atom:link href="/warranty/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://bsch.io/projects/ncl/warranty/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title></title>
-      <link>/warranty/</link>
+      <link>http://bsch.io/projects/ncl/warranty/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/warranty/</guid>
+      <guid>http://bsch.io/projects/ncl/warranty/</guid>
       <description>&lt;!DOCTYPE html&gt;
 &lt;html lang=&#34;{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}&#34;&gt;
 &lt;head&gt;
