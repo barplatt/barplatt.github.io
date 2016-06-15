@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Warranties on New Castle Living</title>
+    <link>/warranty/</link>
+    <description>Recent content in Warranties on New Castle Living</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2016 New Castle Living. All Rights Reserved.</copyright>
+    <atom:link href="/warranty/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title></title>
+      <link>/warranty/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/warranty/</guid>
+      <description>&lt;!DOCTYPE html&gt;
+&lt;html lang=&#34;{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}&#34;&gt;
+&lt;head&gt;
+&lt;title&gt;Warranty &amp;#124; {{ .Site.Title }}&lt;/title&gt;
+{{ partial &#34;head.html&#34; . }}
+&lt;/head&gt;
+&lt;body&gt;
+{{ partial &#34;nav.html&#34; . }} {{ &#34;&lt;!-- FLOORING --&gt;&#34; | safeHTML }}&lt;br&gt;
+    &lt;section class=&#34;section animated fadeIn&#34;&gt;
+        &lt;div class=&#34;container&#34;&gt;                    
+            &lt;div class=&#34;row&#34;&gt;  
+                &lt;div class=&#34;col-md-12&#34;&gt; 
+                     &lt;h1 class=&#34;h2 mtm&#34;&gt;Warranty&lt;/h1&gt;                                             
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&#34;row&#34;&gt;
+                &lt;div class=&#34;col-md-12&#34;&gt;
+                    &lt;p&gt;Please use the button below to view and or print out the the warranty information.&lt;/p&gt;
+                    &lt;p&gt;&lt;a class=&#34;btn btn-default&#34; href=&#34;{{.Site.BaseURL}}pdf/LimitedWarranty.pdf&#34; target=&#34;_blank&#34;&gt;New Castle Living Warranty (pdf)&lt;/a&gt;&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/section&gt;
+    {{ partial &#34;footer.html&#34; . }}
+    {{ partial &#34;js.html&#34; . }}
+&lt;/body&gt;
+&lt;/html&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

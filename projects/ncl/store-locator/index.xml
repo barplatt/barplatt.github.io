@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Store-Locators on New Castle Living</title>
+    <link>/store-locator/</link>
+    <description>Recent content in Store-Locators on New Castle Living</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2016 New Castle Living. All Rights Reserved.</copyright>
+    <atom:link href="/store-locator/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title></title>
+      <link>/store-locator/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/store-locator/</guid>
+      <description>&lt;!DOCTYPE html&gt;
+&lt;html lang=&#34;{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}&#34;&gt;
+&lt;head&gt;
+&lt;title&gt;Store Locator &amp;#124; {{ .Site.Title }}&lt;/title&gt;
+{{ partial &#34;head.html&#34; . }}
+&lt;link rel=&#34;stylesheet&#34; href=&#34;{{ .Site.BaseURL }}assets/css/storelocator.css&#34;&gt;
+&lt;/head&gt;
+&lt;body&gt;
+{{ partial &#34;nav.html&#34; . }} {{ &#34;&lt;!-- FLOORING --&gt;&#34; | safeHTML }}&lt;br&gt;
+&lt;section class=&#34;section section animated fadeIn&#34;&gt;
+    &lt;div class=&#34;container&#34;&gt;
+        &lt;h1 class=&#34;h2 mtm&#34;&gt;Store Locations&lt;/h1&gt;
+    &lt;/div&gt;
+ 
+    &lt;div class=&#34;container bh-sl-container&#34;&gt; 
+        &lt;div class=&#34;row mbs&#34;&gt;
+            &lt;div class=&#34;col-md-6 col-sm-6&#34;&gt;
+                &lt;ul class=&#34;list-inline mtm&#34;&gt;
+                    &lt;li&gt;&lt;img src=&#34;{{ .Site.BaseURL }}assets/img/red-marker.png&#34; class=&#34;legend-marker&#34;&gt; Retail&lt;/li&gt;
+                    &lt;li&gt;&lt;img src=&#34;{{ .Site.BaseURL }}assets/img/blue-marker.png&#34; class=&#34;legend-marker&#34;&gt; Warehouse&lt;/li&gt;
+                    &lt;li&gt;&lt;img src=&#34;{{ .Site.BaseURL }}assets/img/green-marker.png&#34; class=&#34;legend-marker&#34;&gt; HQ&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/div&gt;
+
+            &lt;div class=&#34;col-md-6 col-sm-6 mts&#34;&gt;
+                &lt;div class=&#34;bh-sl-form-container &#34;&gt;
+                    &lt;form id=&#34;bh-sl-user-location&#34; class=&#34;&#34; method=&#34;post&#34; action=&#34;#&#34; role=&#34;form&#34;&gt;
+                        &lt;div class=&#34;col-md-offset-5 col-xs-6 col-sm-7 col-md-5&#34;&gt;
+                            &lt;div class=&#34;form-group map&#34;&gt;
+                                &lt;label for=&#34;bh-sl-address&#34; class=&#34;sr-only&#34;&gt;Enter Address or Zip Code:&lt;/label&gt;
+                                &lt;input class=&#34;form-control&#34; type=&#34;text&#34; id=&#34;bh-sl-address&#34; name=&#34;bh-sl-address&#34; placeholder=&#34;Enter Address or Zip Code:&#34; /&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                        
+                        
+                        &lt;div class=&#34;col-xs-3 col-sm-3 col-md-2 text-center less-padding-left&#34;&gt;
+                            &lt;button id=&#34;bh-sl-submit&#34; class=&#34;btn btn-primary&#34;  type=&#34;submit&#34;&gt;Submit&lt;/button&gt;
+                        &lt;/div&gt;
+                        
+                    &lt;/form&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;   
+        &lt;/div&gt;
+               
+
+        &lt;div class=&#34;row&#34;&gt;
+            &lt;div class=&#34;col-md-12&#34;&gt;
+            &lt;div id=&#34;bh-sl-map-container&#34; class=&#34;bh-sl-map-container mts&#34;&gt;
+                &lt;div class=&#34;row no-gutter&#34;&gt;
+                    &lt;div id=&#34;map-results-container&#34; class=&#34;container&#34;&gt;
+                        &lt;div id=&#34;bh-sl-map&#34; class=&#34;bh-sl-map col-md-9&#34;&gt;&lt;/div&gt;
+                        &lt;div class=&#34;bh-sl-loc-list col-md-3&#34;&gt;
+                            &lt;ul class=&#34;list list-unstyled&#34;&gt;&lt;/ul&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+        
+    &lt;/div&gt;
+&lt;/section&gt;
+    {{ partial &#34;footer.html&#34; . }}    
+    {{ partial &#34;store-locator-js.html&#34; . }}
+&lt;/body&gt;
+&lt;/html&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

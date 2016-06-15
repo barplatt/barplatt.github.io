@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Contacts on New Castle Living</title>
+    <link>/contact/</link>
+    <description>Recent content in Contacts on New Castle Living</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2016 New Castle Living. All Rights Reserved.</copyright>
+    <atom:link href="/contact/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title></title>
+      <link>/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/contact/</guid>
+      <description>&lt;!DOCTYPE html&gt;
+&lt;html lang=&#34;{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}&#34;&gt;
+&lt;head&gt;
+&lt;title&gt;Contact Us &amp;#124; {{ .Site.Title }}&lt;/title&gt;
+{{ partial &#34;head.html&#34; . }}
+&lt;/head&gt;
+&lt;body&gt;
+{{ partial &#34;nav.html&#34; . }} {{ &#34;&lt;!-- FLOORING --&gt;&#34; | safeHTML }}&lt;br&gt;
+    &lt;section class=&#34;section animated fadeIn&#34;&gt;
+        &lt;div class=&#34;container&#34;&gt;                    
+            &lt;div class=&#34;row &#34;&gt; 
+                &lt;div class=&#34;col-md-12&#34;&gt; 
+                     &lt;h1 class=&#34;h2 mtm&#34;&gt;Contact Us&lt;/h1&gt;                                             
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&#34;row&#34;&gt;
+                &lt;div class=&#34;col-md-4&#34;&gt;
+                    &lt;p&gt;520 Herndon Parkway&lt;br&gt;
+                        Herndon, VA 20170&lt;br&gt;      
+                        844-84CASTLE (22785)&lt;br&gt;
+                        (703)-904-0980&lt;br&gt;
+                        &lt;a href=&#34;mailto:info@newcastle-living.com&#34;&gt;info@newcastle-living.com&lt;/a&gt;
+                    &lt;/p&gt;
+                &lt;/div&gt;
+
+                &lt;div class=&#34;col-md-8&#34;&gt;
+                    &lt;script type=&#34;text/javascript&#34; src=&#34;https://sourcecast.formstack.com/forms/js.php/newcastleliving_contact?nojqueryui=1&#34;&gt;&lt;/script&gt;&lt;noscript&gt;&lt;a href=&#34;https://sourcecast.formstack.com/forms/newcastleliving_contact&#34; title=&#34;Online Form&#34;&gt;New Castle Living - Contact Us&lt;/a&gt;&lt;/noscript&gt;
+                &lt;/div&gt;        
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/section&gt;
+    {{ partial &#34;footer.html&#34; . }}
+    {{ partial &#34;js.html&#34; . }}
+&lt;/body&gt;
+&lt;/html&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

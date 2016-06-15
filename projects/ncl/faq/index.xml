@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Faqs on New Castle Living</title>
+    <link>/faq/</link>
+    <description>Recent content in Faqs on New Castle Living</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2016 New Castle Living. All Rights Reserved.</copyright>
+    <atom:link href="/faq/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title></title>
+      <link>/faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/faq/</guid>
+      <description>&lt;!DOCTYPE html&gt;
+&lt;html lang=&#34;{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}&#34;&gt;
+&lt;head&gt;
+&lt;title&gt;FAQ &amp;#124; {{ .Site.Title }}&lt;/title&gt;
+{{ partial &#34;head.html&#34; . }}
+&lt;/head&gt;
+&lt;body&gt;
+{{ partial &#34;nav.html&#34; . }} {{ &#34;&lt;!-- FLOORING --&gt;&#34; | safeHTML }}&lt;br&gt;
+    &lt;section class=&#34;section animated fadeIn&#34;&gt;
+        &lt;div class=&#34;container&#34;&gt;                    
+            &lt;div class=&#34;row&#34;&gt;  
+                &lt;div class=&#34;col-md-12&#34;&gt; 
+                     &lt;h1 class=&#34;h2 mtm&#34;&gt;FAQ&lt;/h1&gt;                                   
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&#34;row&#34;&gt;
+                &lt;div class=&#34;col-md-12&#34;&gt;
+                    &lt;h4&gt; Q. What are laminate floors?&lt;/h4&gt;
+
+                        &lt;p&gt; 
+                            &lt;strong&gt;A:&lt;/strong&gt; Because laminate flooring, which arrived from Europe more than a decade ago, is relatively new to the American market, and because it so closely resembles other hard surfaces, there’s a mystery surrounding it. Basically, laminates are the result of a direct-pressure manufacturing process that fuses four layers into one extremely durable surface.
+                        &lt;/p&gt;
+
+                        &lt;p&gt;
+                            Most laminate flooring consists of a moisture resistant layer under a layer of HDF (high density fiberboard). This is topped with a high resolution photographic image of natural wood flooring. It is then finished with an extremely hard, clear coating made from special resin-coated cellulose to protect the laminate flooring. Laminate flooring is perfect for anyone wanting a durable floor for a fraction of the price and installation time of a hardwood floor, but with the attractiveness of real hardwood. This construction also makes laminate flooring more environment-friendly as it uses less wood in its construction and makes more efficient use of the wood fiber that is used.
+                        &lt;/p&gt;
+                        
+
+                        &lt;h4 class=&#34;mtm&#34;&gt; Q. What is the difference between laminate flooring and hardwood flooring?&lt;/h4&gt;
+
+                        &lt;p&gt; 
+                            &lt;strong&gt;A:&lt;/strong&gt; Both laminate flooring and hardwood flooring can bring immediate beauty to your home. Hardwood, while rich in beauty, can be at times cost prohibitive. Laminate, on the other hand, offers several advantages. Distinct differences between the two types of flooring often make laminate a more attractive alternative. Solid hardwood of any thickness (most is 3/8&#34; to 3/4&#34;) should be installed only above grade. Laminate flooring can be installed above or below grade, and over virtually any other flooring surface. Although many people insist on hardwood flooring, laminates are a long-lasting, durable, affordable options that are quickly becoming one of the most popular types of flooring. 
+                        &lt;/p&gt;
+
+                        &lt;p&gt;
+                            Though resembling hardwood flooring, laminate floors are constructed of several materials bonded together under high pressure; no solid wood is used in its construction. The substance of laminate flooring lies in particleboard core, which is sandwiched between a moisture resistant underlayment and high-resolution photographic image of the wood species being mimicked. This photographic layer is then topped off with an extremely hard, clear resin-coated cellulose layer that makes the floors nearly impervious to dents and scratches. Laminates mimicking stone and ceramic tiles are created in a similar fashion.
+                        &lt;/p&gt;
+
+                        &lt;h4 class=&#34;mtm&#34;&gt; Q. Where can I install laminate wood flooring?&lt;/h4&gt;
+
+                        &lt;p&gt; 
+                            &lt;strong&gt;A:&lt;/strong&gt; Laminate flooring is a highly versatile flooring product. It can be installed in virtually any room of your home, above or below ground, over wood or concrete. There are several locations that are not recommended for laminate flooring. Because laminate flooring is a wood flooring product, it is not recommended that laminates be installed in locations where there is a chance for water to stand for an extended period of time such as bathrooms, washrooms, saunas, etc. For bathroom installations, it is recommended you apply a light bead of glue to the tongue on the planks to be used in the areas subject to spills. Also, ensure that all spills are mopped up and dried promptly. 
+                        &lt;/p&gt;
+
+                        &lt;h4 class=&#34;mtm&#34;&gt; Q. How long will my laminate floor last?&lt;/h4&gt;
+
+                        &lt;p&gt; 
+                            &lt;strong&gt;A:&lt;/strong&gt; With proper care and maintenance, a quality laminate floor should last 15 to 30 years, which is on par with other types of manufactured flooring, but considerably less than that of genuine stone, ceramic and other natural materials. However, removing laminate flooring is extremely simple unlike stone and ceramic materials. 
+                        &lt;/p&gt;
+
+                        &lt;h4 class=&#34;mtm&#34;&gt; Q. What is a floating floor? &lt;/h4&gt;
+
+                        &lt;p&gt; 
+                            &lt;strong&gt;A:&lt;/strong&gt; A floating floor is a floor built with all its parts attached to each other but with none of these component parts fixed to the supporting floor. Virtually all laminate floors install as floating floors.
+                        &lt;/p&gt;
+
+                        &lt;h4 class=&#34;mtm&#34;&gt; Q. What is HDF and what is it made of? &lt;/h4&gt;
+
+                        &lt;p&gt; 
+                            &lt;strong&gt;A:&lt;/strong&gt; High density fiberboard, HDF, is basically a high-density, moisture-resistant fiber panel. It is made of wood residues (sawdust, shavings and wood chips) from wood processing factories. This ligneous material is ground into a pulp to which a melamine-urea-formaldehyde resin is added. This pulp is then dried and pressed into panels. 
+                        &lt;/p&gt;
+
+                        &lt;h4 class=&#34;mtm&#34;&gt; Q. What is a laminate flooring AC rating? &lt;/h4&gt;
+
+                        &lt;p&gt; 
+                            &lt;strong&gt;A:&lt;/strong&gt;  AC hardness ratings are a standardized measure adopted by The &lt;a href=&#34;http://www.eplf.com/en/&#34;&gt;Association of European Producers of Laminate Flooring (ELPF)&lt;/a&gt; . The AC measure rates abrasion resistance, impact resistance, resistance to staining and cigarette burns, and thickness swelling along edges. If a laminate flooring cannot meet the requirements for each of these ratings, approval for a given AC rating will be denied. All laminate flooring distributed by New Castle Living has a minimum rating of AC3.  AC ratings 4 and 5 are equally suitable for residential use as AC3 but somewhat more suitable for high traffic commercial applications. AC ratings below 3 are recommended for low traffic residential use only. 
+                        &lt;/p&gt;
+
+                        &lt;h4 class=&#34;mtm&#34;&gt; Q. Can laminate flooring be installed on steps? &lt;/h4&gt;
+
+                        &lt;p&gt; 
+                            &lt;strong&gt;A:&lt;/strong&gt; Yes, laminate flooring can be installed on steps but with this exceptional installation, the planks should be glued down with regular wood glue. The moldings and transitions need to be nailed down. 
+                        &lt;/p&gt;
+
+                        &lt;h4 class=&#34;mtm&#34;&gt; Q. How do I clean my laminate flooring?&lt;/h4&gt;
+
+                        &lt;p&gt; 
+                            &lt;strong&gt;A:&lt;/strong&gt; Laminate flooring is a beautiful, low maintenance, long-lasting flooring. There are several simple steps that you can take to keep your laminate flooring clean and to ensure that you get many years of service from it. Simply dust mop or vacuum with a soft brush or wood floor accessory to keep your laminate floor clean from dust, dirt or grit.
+
+                            &lt;ul&gt;
+                                &lt;li&gt;
+                                    A damp cloth or mop can be used without damage to the laminate flooring panels, but do not use excessive water. Dry the floor thoroughly with a clean, soft cloth.
+                                &lt;/li&gt;
+
+                                &lt;li&gt;
+                                    Blot up spills or water from wet feet or footwear immediately with a clean, dry cloth, sponge, or paper towel. Do not allow excess liquid to remain on the surface of your laminate floor.
+                                &lt;/li&gt;
+
+                                &lt;li&gt; 
+                                    Do not use soap-based detergents, abrasive cleaners, or combined “clean and shine” products on your laminate floor.
+                                &lt;/li&gt;
+
+                                &lt;li&gt;
+                                    Do not use steel wool or other scouring pads that may scratch laminate panels.
+                                &lt;/li&gt;
+
+                                &lt;li&gt;
+                                    Do not wax or polish your laminate flooring.
+                                &lt;/li&gt;
+
+                                &lt;li&gt; 
+                                    Do not steam clean or use chemicals that may damage the laminate flooring surface.
+                                &lt;/li&gt;
+                            &lt;/ul&gt;
+
+                            For stubborn spots or stains on laminate flooring use acetone or nail polish remover on stubborn substances such as tar, asphalt, paint, or oil. Then wipe clean with a damp cloth.
+                        &lt;/p&gt;
+                        
+
+                        &lt;h4 class=&#34;mtm&#34;&gt; Q. How do I care for and maintain my laminate floors? &lt;/h4&gt;
+
+                        &lt;p&gt; 
+                            &lt;strong&gt;A:&lt;/strong&gt; While laminate floors are highly resistant to stains and abrasions, they are not indestructible. In order to maximize the durability and beauty of your laminate flooring, we recommend the following practices as part of your floor&#39;s normal care and maintenance. 
+                            
+                            &lt;ul&gt;
+                                &lt;li&gt;
+                                    Place a doormat outside the exterior entrances to collect excess moisture, sand, grit and other potentially damaging substances from being tracked onto your laminate floor.
+                                &lt;/li&gt;
+
+                                &lt;li&gt;    
+                                    Use only colorfast and non-scratch carpeting or pads on your laminate surface.
+                                &lt;/li&gt;
+
+                                &lt;li&gt;    
+                                    Avoid sharp or pointed objects with concentrated weight such as high heels on your laminate flooring.
+                                &lt;/li&gt;
+
+                                &lt;li&gt;    
+                                    Use protective felt pads under furniture legs or wide castors under appliance levelers.
+                                &lt;/li&gt;
+
+                                &lt;li&gt;    
+                                    Do not slide furniture or appliances across your laminate floor. If using a wheeled dolly to move furniture or appliances, place a clean sheet of smooth plywood or other protective layer over your laminate surface.
+                                &lt;/li&gt;
+
+                                &lt;li&gt;    
+                                    Rearrange furniture occasionally for increased indentation resistance.
+                                &lt;/li&gt;
+
+                                &lt;li&gt;    
+                                    Do not treat or seal your laminate floor panels after they are installed.
+                                &lt;/li&gt;
+
+                                &lt;li&gt;    
+                                    Never sand, lacquer, or refinish your laminate flooring surfaces.
+                                &lt;/li&gt;
+                            &lt;/ul&gt;
+                        &lt;/p&gt;
+
+                        &lt;h4 class=&#34;mtm&#34;&gt; Q. How do I repair minor scratches? &lt;/h4&gt;
+
+                        &lt;p&gt; 
+                            &lt;strong&gt;A:&lt;/strong&gt; To repair scratches, small chips and dents color fill kits, wood finish repair sticks or putties are easy to use. Your local flooring retailer provides numerous color putty options. If significant plank damage, an option may be to replace a plank. Plank replacements can be challenging to the average do-it-yourselfer, we recommend you contact your retailer or visit &lt;a href=&#34;http://nalfa.com/&#34;&gt;NALFA.com&lt;/a&gt; to locate a flooring professional who has the proper tools and training for plank replacements. 
+                        &lt;/p&gt;
+
+                        &lt;h4 class=&#34;mtm&#34;&gt; Q. Where can I find New Castle Living products?&lt;/h4&gt;
+
+                        &lt;p&gt; 
+                            &lt;strong&gt;A:&lt;/strong&gt; For a retail store near you use our &lt;a href=&#34;{{ .Site.BaseURL }}store-locator/&#34;&gt;Store Locator&lt;/a&gt;.
+                        &lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/section&gt;
+    {{ partial &#34;footer.html&#34; . }}
+    {{ partial &#34;js.html&#34; . }}
+&lt;/body&gt;
+&lt;/html&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
