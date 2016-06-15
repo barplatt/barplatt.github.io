@@ -1150,7 +1150,7 @@ hr {
     text-transform: uppercase;
     display: inline-block; }
     .main-nav li a {
-      padding: 15%; }
+      padding: 5%; }
   @media (max-width: 767px) {
     .main-nav {
       text-align: center;
