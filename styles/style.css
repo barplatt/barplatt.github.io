@@ -1100,7 +1100,8 @@ hr {
    Logo
    =========================== */
 .header-logo {
-  max-width: 80px; }
+  max-width: 80px;
+  padding-bottom: 1rem; }
 
 .header, .footer {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00aacc+0,0089af +100 */
@@ -1113,8 +1114,7 @@ hr {
   background: linear-gradient(to bottom, #00aacc 0%, #0089af 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00aacc', endColorstr='#0089af ',GradientType=0 );
-  /* IE6-9 */
-  padding-bottom: 1rem; }
+  /* IE6-9 */ }
 
 /* ===========================
    Theme button
