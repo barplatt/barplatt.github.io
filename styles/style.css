@@ -1101,7 +1101,8 @@ hr {
    =========================== */
 .header-logo {
   max-width: 80px;
-  padding-bottom: 1rem; }
+  padding-bottom: 1rem;
+  /* Copied over padding from header to align text horizontally */ }
 
 .header, .footer {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00aacc+0,0089af +100 */
